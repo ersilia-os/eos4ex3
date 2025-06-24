@@ -16,7 +16,7 @@ root = os.path.dirname(os.path.abspath(__file__))
 
 temp_dir = tempfile.mkdtemp(prefix="ersilia_", dir=root)
 input_file_ = os.path.join(temp_dir, "normalized_input.csv")
-
+output_file_ = os.path.join(temp_dir, "normalized_output.csv")
 # read SMILES from .csv file, assuming one column with header
 with open(input_file, "r") as f:
     reader = csv.reader(f)
@@ -33,7 +33,7 @@ with open(input_file_, "w", newline="") as f:
 # my model
 subprocess.run(["python", os.path.join(root, "gather_representation.py"),
 	"--gpu", "cpu",
-	"--output_filepath", output_file,
+	"--output_filepath", output_file_,
 	"--smiles_filepath", input_file_,
 	"--smiles_colname", "smiles",
 	"--chemid_colname", "smiles",
@@ -43,11 +43,11 @@ subprocess.run(["python", os.path.join(root, "gather_representation.py"),
 
 # Compare SMILES input and output
 smiles_input = pd.read_csv(os.path.join(input_file_), sep=',')['smiles'].tolist()
-smiles_output = pd.read_csv(os.path.join(output_file), sep=',').iloc[:, 0].tolist()
+smiles_output = pd.read_csv(os.path.join(output_file_), sep=',').iloc[:, 0].tolist()
 assert smiles_input == smiles_output
 
 # Change output format
-output = pd.read_csv(os.path.join(output_file), sep=',')
+output = pd.read_csv(os.path.join(output_file_), sep=',')
 output = output.iloc[:, 1:]
 output.columns = [f"dim_{i:03d}" for i in range(len(output.columns))]
 output.to_csv(output_file, sep=',', index=False)

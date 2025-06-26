@@ -2,27 +2,32 @@ Identifier: eos4ex3
 Slug: mole-representations
 Status: In progress
 Title: MolE molecular representation through redundancy reduced embeddings
-Description: 'MolE representations (Molecular representation through redundancy reduced Embeddings) are task-independent, learned molecular embeddings generated through a self-supervised deep learning approach. They are designed to encode chemically meaningful information about molecules without needing labeled training data.'
+Description: MolE representations (Molecular representation through redundancy 
+  reduced Embeddings) are task-independent, learned molecular embeddings 
+  generated through a self-supervised deep learning approach. They are designed 
+  to encode chemically meaningful information about molecules without needing 
+  labeled training data.
 Source: Local
 Source Type: External
 Task: Representation
 Subtask: Featurization
-Input: 
-- Compound
+Input:
+  - Compound
 Input Dimension: 1
-Output: 
-- Descriptor
+Output:
+  - Descriptor
 Output Dimension: 1000
 Output Consistency: Fixed
-Interpretation: "Vector representation of a molecule"
+Interpretation: Vector representation of a molecule
 Tag:
-- Descriptor
+  - Descriptor
 Biomedical Area:
-- Any
+  - Any
 Target Organism:
-- Not Applicable
+  - Not Applicable
 Publication Type: Peer reviewed
 Publication Year: 2025
 Publication: https://www.nature.com/articles/s41467-025-58804-4
 Source Code: https://github.com/rolayoalarcon/MolE/tree/main
 License: MIT
+Incorporation Date: '2025-06-23'

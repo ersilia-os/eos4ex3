@@ -1,6 +1,6 @@
 Identifier: eos4ex3
 Slug: mole-representations
-Status: In progress
+Status: Ready
 Title: MolE molecular representation through redundancy reduced embeddings
 Description: MolE representations (Molecular representation through redundancy 
   reduced Embeddings) are task-independent, learned molecular embeddings 
@@ -32,5 +32,15 @@ Source Code: https://github.com/rolayoalarcon/MolE/tree/main
 License: MIT
 Incorporation Date: '2025-06-23'
 S3: https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos4ex3.zip
+DockerHub: https://hub.docker.com/r/ersiliaos/eos4ex3
+Docker Architecture:
+  - AMD64
+  - ARM64
 Model Size: 1534.0
 Environment Size: 5808.0
+Image Size: 7983.47
+Computational Performance 1: 44.35
+Computational Performance 2: 34.58
+Computational Performance 3: 36.48
+Computational Performance 4: 216.38
+Computational Performance 5: 1037.47

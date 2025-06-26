@@ -2,6 +2,7 @@
 
 MolE representations (Molecular representation through redundancy reduced Embeddings) are task-independent, learned molecular embeddings generated through a self-supervised deep learning approach. They are designed to encode chemically meaningful information about molecules without needing labeled training data.
 
+This model was incorporated on 2025-06-23.
 
 ## Information
 ### Identifiers
@@ -42,8 +43,11 @@ _10 of 1000 columns are shown_
 ### Source and Deployment
 - **Source:** `Local`
 - **Source Type:** `External`
+- **S3 Storage**: [https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos4ex3.zip](https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos4ex3.zip)
 
 ### Resource Consumption
+- **Model Size (Mb):** `1534`
+- **Environment Size (Mb):** `5808`
 
 
 ### References

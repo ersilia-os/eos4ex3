@@ -31,3 +31,6 @@ Publication: https://www.nature.com/articles/s41467-025-58804-4
 Source Code: https://github.com/rolayoalarcon/MolE/tree/main
 License: MIT
 Incorporation Date: '2025-06-23'
+S3: https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos4ex3.zip
+Model Size: 1534.0
+Environment Size: 5808.0

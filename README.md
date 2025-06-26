@@ -43,12 +43,19 @@ _10 of 1000 columns are shown_
 ### Source and Deployment
 - **Source:** `Local`
 - **Source Type:** `External`
+- **DockerHub**: [https://hub.docker.com/r/ersiliaos/eos4ex3](https://hub.docker.com/r/ersiliaos/eos4ex3)
+- **Docker Architecture:** `AMD64`, `ARM64`
 - **S3 Storage**: [https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos4ex3.zip](https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos4ex3.zip)
 
 ### Resource Consumption
 - **Model Size (Mb):** `1534`
 - **Environment Size (Mb):** `5808`
+- **Image Size (Mb):** `7983.47`
 
+**Computational Performance (seconds):**
+- 10 inputs: `44.35`
+- 100 inputs: `36.48`
+- 10000 inputs: `1037.47`
 
 ### References
 - **Source Code**: [https://github.com/rolayoalarcon/MolE/tree/main](https://github.com/rolayoalarcon/MolE/tree/main)

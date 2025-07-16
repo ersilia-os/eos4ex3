@@ -7,6 +7,8 @@ Description: MolE representations (Molecular representation through redundancy
   generated through a self-supervised deep learning approach. They are designed 
   to encode chemically meaningful information about molecules without needing 
   labeled training data.
+Deployment:
+  - Local
 Source: Local
 Source Type: External
 Task: Representation

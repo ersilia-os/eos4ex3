@@ -15,7 +15,7 @@ Input:
   - Compound
 Input Dimension: 1
 Output:
-  - Descriptor
+  - Value
 Output Dimension: 1000
 Output Consistency: Fixed
 Interpretation: Vector representation of a molecule

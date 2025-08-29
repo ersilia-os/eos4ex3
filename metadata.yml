@@ -33,6 +33,8 @@ Publication: https://www.nature.com/articles/s41467-025-58804-4
 Source Code: https://github.com/rolayoalarcon/MolE/tree/main
 License: MIT
 Incorporation Date: '2025-06-23'
+Last Packaging Date: '2025-08-29'
+Release: v1.0.0
 S3: https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos4ex3.zip
 DockerHub: https://hub.docker.com/r/ersiliaos/eos4ex3
 Docker Architecture:
@@ -40,9 +42,9 @@ Docker Architecture:
   - ARM64
 Model Size: 768.0
 Environment Size: 5813.0
-Image Size: 7983.47
-Computational Performance 1: 44.35
-Computational Performance 2: 34.58
-Computational Performance 3: 36.48
-Computational Performance 4: 216.38
-Computational Performance 5: 1037.47
+Image Size: 8067.4
+Computational Performance 1: 31.87
+Computational Performance 2: 21.59
+Computational Performance 3: 22.33
+Computational Performance 4: 74.3
+Computational Performance 5: 308.25

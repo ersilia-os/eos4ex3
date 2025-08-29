@@ -38,8 +38,8 @@ DockerHub: https://hub.docker.com/r/ersiliaos/eos4ex3
 Docker Architecture:
   - AMD64
   - ARM64
-Model Size: 1534.0
-Environment Size: 5808.0
+Model Size: 768.0
+Environment Size: 5813.0
 Image Size: 7983.47
 Computational Performance 1: 44.35
 Computational Performance 2: 34.58

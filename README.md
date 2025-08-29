@@ -4,6 +4,7 @@ MolE representations (Molecular representation through redundancy reduced Embedd
 
 This model was incorporated on 2025-06-23.
 
+
 ## Information
 ### Identifiers
 - **Ersilia Identifier:** `eos4ex3`
@@ -13,7 +14,7 @@ This model was incorporated on 2025-06-23.
 - **Task:** `Representation`
 - **Subtask:** `Featurization`
 - **Biomedical Area:** `Any`
-- **Target Organism:** `Not Applicable`
+- **Target Organism:** `Any`
 - **Tags:** `Descriptor`
 
 ### Input

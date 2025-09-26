@@ -42,7 +42,7 @@ subprocess.run(["python", os.path.join(root, "gather_representation.py"),
 
 
 # Compare SMILES input and output
-smiles_input = pd.read_csv(os.path.join(input_file_), sep=',')['smiles'].tolist()
+smiles_input = smiles_list
 smiles_output = pd.read_csv(os.path.join(output_file_), sep=',').iloc[:, 0].tolist()
 assert smiles_input == smiles_output
 

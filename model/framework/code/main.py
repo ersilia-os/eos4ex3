@@ -25,6 +25,14 @@ output_file_ = os.path.join(temp_dir, "normalized_output.csv")
 # read input
 _, smiles_list = read_smiles(input_file)
 
+
+#Create intermediate input
+with open(input_file_, "w", newline="") as f:
+	writer = csv.writer(f)
+	writer.writerow(["smiles"])
+	for s in smiles_list:
+		writer.writerow([s])
+
 # my model
 subprocess.run(["python", os.path.join(root, "gather_representation.py"),
 	"--gpu", "cpu",
@@ -48,6 +56,6 @@ results = output.values.tolist()
 
 header = [f"dim_{i:03d}" for i in range(len(output.columns))]
 
-write_out(results, header, output_file, 'float32')
+write_out(results, header, output_file, )
 
 shutil.rmtree(temp_dir)

@@ -56,6 +56,6 @@ results = output.values.tolist()
 
 header = [f"dim_{i:03d}" for i in range(len(output.columns))]
 
-write_out(results, header, output_file, )
+write_out(results, header, output_file, np.float32)
 
 shutil.rmtree(temp_dir)

@@ -5,8 +5,6 @@ import sys
 import subprocess
 import tempfile
 import shutil
-import json
-import struct
 import numpy as np
 import pandas as pd
 from ersilia_pack_utils.core import read_smiles, write_out
@@ -18,7 +16,8 @@ output_file = sys.argv[2]
 # current file directory
 root = os.path.dirname(os.path.abspath(__file__))
 
-temp_dir = tempfile.mkdtemp(prefix="ersilia_", dir=root)
+temp_dir = tempfile.mkdtemp()
+os.makedirs(temp_dir, exist_ok=True)
 input_file_ = os.path.join(temp_dir, "normalized_input.csv")
 output_file_ = os.path.join(temp_dir, "normalized_output.csv")
 

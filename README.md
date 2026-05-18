@@ -59,7 +59,7 @@ _10 of 1000 columns are shown_
 
 ### References
 - **Source Code**: [https://github.com/rolayoalarcon/MolE/tree/main](https://github.com/rolayoalarcon/MolE/tree/main)
-- **Publication**: [https://www.nature.com/articles/s41467-025-58804-4](https://www.nature.com/articles/s41467-025-58804-4)
+- **Publication**: [https://doi.org/10.1038/s41467-025-58804-4](https://doi.org/10.1038/s41467-025-58804-4)
 - **Publication Type:** `Peer reviewed`
 - **Publication Year:** `2025`
 - **Ersilia Contributor:** [arnaucoma24](https://github.com/arnaucoma24)

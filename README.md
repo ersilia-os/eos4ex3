@@ -53,9 +53,9 @@ _10 of 1000 columns are shown_
 - **Image Size (Mb):** `3632.58`
 
 **Computational Performance (seconds):**
-- 10 inputs: `38.46`
-- 100 inputs: `29.96`
-- 10000 inputs: `302.41`
+- 10 inputs: `36.8`
+- 100 inputs: `27.49`
+- 10000 inputs: `290.74`
 
 ### References
 - **Source Code**: [https://github.com/rolayoalarcon/MolE/tree/main](https://github.com/rolayoalarcon/MolE/tree/main)

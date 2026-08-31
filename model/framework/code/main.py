@@ -53,7 +53,7 @@ output = pd.read_csv(os.path.join(output_file_), sep=',')
 output = output.iloc[:, 1:]
 results = output.values.tolist()
 
-header = [f"dim_{i:03d}" for i in range(len(output.columns))]
+header = [f"feat_{i:03d}" for i in range(len(output.columns))]
 
 write_out(results, header, output_file, np.float32)
 

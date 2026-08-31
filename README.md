@@ -28,16 +28,16 @@ This model was incorporated on 2025-06-23.Last packaged on 2026-06-22.
 Below are the **Output Columns** of the model:
 | Name | Type | Direction | Description |
 |------|------|-----------|-------------|
-| dim_000 | float |  | Dimension 0 of the Molecular representation through redundancy reduced Embeddings |
-| dim_001 | float |  | Dimension 1 of the Molecular representation through redundancy reduced Embeddings |
-| dim_002 | float |  | Dimension 2 of the Molecular representation through redundancy reduced Embeddings |
-| dim_003 | float |  | Dimension 3 of the Molecular representation through redundancy reduced Embeddings |
-| dim_004 | float |  | Dimension 4 of the Molecular representation through redundancy reduced Embeddings |
-| dim_005 | float |  | Dimension 5 of the Molecular representation through redundancy reduced Embeddings |
-| dim_006 | float |  | Dimension 6 of the Molecular representation through redundancy reduced Embeddings |
-| dim_007 | float |  | Dimension 7 of the Molecular representation through redundancy reduced Embeddings |
-| dim_008 | float |  | Dimension 8 of the Molecular representation through redundancy reduced Embeddings |
-| dim_009 | float |  | Dimension 9 of the Molecular representation through redundancy reduced Embeddings |
+| feat_000 | float |  | Feature 0 of the Molecular representation through redundancy reduced Embeddings |
+| feat_001 | float |  | Feature 1 of the Molecular representation through redundancy reduced Embeddings |
+| feat_002 | float |  | Feature 2 of the Molecular representation through redundancy reduced Embeddings |
+| feat_003 | float |  | Feature 3 of the Molecular representation through redundancy reduced Embeddings |
+| feat_004 | float |  | Feature 4 of the Molecular representation through redundancy reduced Embeddings |
+| feat_005 | float |  | Feature 5 of the Molecular representation through redundancy reduced Embeddings |
+| feat_006 | float |  | Feature 6 of the Molecular representation through redundancy reduced Embeddings |
+| feat_007 | float |  | Feature 7 of the Molecular representation through redundancy reduced Embeddings |
+| feat_008 | float |  | Feature 8 of the Molecular representation through redundancy reduced Embeddings |
+| feat_009 | float |  | Feature 9 of the Molecular representation through redundancy reduced Embeddings |
 
 _10 of 1000 columns are shown_
 ### Source and Deployment

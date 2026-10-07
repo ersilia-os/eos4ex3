@@ -1,6 +1,6 @@
 # MolE molecular representation through redundancy reduced embeddings
 
-MolE converts a molecular graph into a 1,000-dimensional embedding learned without labels, using a redundancy-reduction objective that discourages different dimensions from encoding the same information. Olayo-Alarcon and colleagues designed it so that useful representations could be obtained from unlabelled structures alone, reducing the volume of custom training data needed downstream. Embeddings are task-independent by construction, and individual dimensions carry no direct chemical interpretation.
+MolE converts a molecular graph into a 1,000-dimensional embedding learned without labels, applying the Barlow-Twins redundancy-reduction objective on top of Graph Isomorphism Network layers so that different dimensions avoid encoding the same information. Olayo-Alarcon and colleagues needed only 100,000 unlabelled PubChem structures, far fewer than the millions used by comparable pretraining schemes, and the frozen representation feeds ordinary downstream classifiers well. Individual dimensions carry no direct chemical interpretation.
 
 This model was incorporated on 2025-06-23.Last packaged on 2026-08-31.
 

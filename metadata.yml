@@ -2,13 +2,14 @@ Identifier: eos4ex3
 Slug: mole-representations
 Status: Ready
 Title: MolE molecular representation through redundancy reduced embeddings
-Description: MolE converts a molecular graph into a 1,000-dimensional embedding learned
-  without labels, applying the Barlow-Twins redundancy-reduction objective on top
-  of Graph Isomorphism Network layers so that different dimensions avoid encoding
-  the same information. Olayo-Alarcon and colleagues needed only 100,000 unlabelled
-  PubChem structures, far fewer than the millions used by comparable pretraining schemes,
-  and the frozen representation feeds ordinary downstream classifiers well. Individual
-  dimensions carry no direct chemical interpretation.
+Description: MolE converts a molecular graph into a 1,000-dimensional embedding 
+  learned without labels, applying the Barlow-Twins redundancy-reduction 
+  objective on top of Graph Isomorphism Network layers so that different 
+  dimensions avoid encoding the same information. Olayo-Alarcon and colleagues 
+  needed only 100,000 unlabelled PubChem structures, far fewer than the millions
+  used by comparable pretraining schemes, and the frozen representation feeds 
+  ordinary downstream classifiers well. Individual dimensions carry no direct 
+  chemical interpretation.
 Deployment:
   - Local
 Source: Local
@@ -22,8 +23,8 @@ Output:
   - Value
 Output Dimension: 1000
 Output Consistency: Fixed
-Interpretation: 1000 features encoding molecular structure from a self-supervised
-  redundancy-reduced embedding.
+Interpretation: 1000 features encoding molecular structure from a 
+  self-supervised redundancy-reduced embedding.
 Tag:
   - Descriptor
 Biomedical Area:
@@ -38,7 +39,7 @@ License: MIT
 Contributor: arnaucoma24
 Incorporation Date: '2025-06-23'
 Last Packaging Date: '2026-08-31'
-Release: v2.0.0
+Release: v2.0.1
 S3: https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos4ex3.zip
 DockerHub: https://hub.docker.com/r/ersiliaos/eos4ex3
 Docker Architecture:

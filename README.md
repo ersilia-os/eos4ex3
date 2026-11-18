@@ -2,7 +2,8 @@
 
 MolE converts a molecular graph into a 1,000-dimensional embedding learned without labels, applying the Barlow-Twins redundancy-reduction objective on top of Graph Isomorphism Network layers so that different dimensions avoid encoding the same information. Olayo-Alarcon and colleagues needed only 100,000 unlabelled PubChem structures, far fewer than the millions used by comparable pretraining schemes, and the frozen representation feeds ordinary downstream classifiers well. Individual dimensions carry no direct chemical interpretation.
 
-This model was incorporated on 2025-06-23.Last packaged on 2026-08-31.
+This model was incorporated on 2025-06-23.
+Last packaged on 2026-08-31.
 
 ## Information
 ### Identifiers
@@ -46,6 +47,7 @@ _10 of 1000 columns are shown_
 - **DockerHub**: [https://hub.docker.com/r/ersiliaos/eos4ex3](https://hub.docker.com/r/ersiliaos/eos4ex3)
 - **Docker Architecture:** `AMD64`, `ARM64`
 - **S3 Storage**: [https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos4ex3.zip](https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos4ex3.zip)
+- **Apptainer**: [https://models-sif.s3.eu-north-1.amazonaws.com/eos4ex3_v2.sif](https://models-sif.s3.eu-north-1.amazonaws.com/eos4ex3_v2.sif)
 
 ### Resource Consumption
 - **Model Size (Mb):** `768`
